@@ -5,31 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./main.css">
-    <title>Tasks</title>
+    <title>Javascript app</title>
   </head>
   <body>
    <header>
-    <h1>To-do list</h1>
+    <h1>To-do List</h1>
     <p>
-      Your tasks information is saved.
+      Add tasks. Your tasks information is saved. 
     </p>
    </header>
 
-    <main>
-      <section id="add-task">
+    <main class="parent">
+      <section id="add-task" class="child1">
         <form>
           <input id="input" type="text" placeholder="Add Task..." />
           <button  type="submit">Add Task</button>
         </form>
       </section>
 
-      <section id="tasks">
+      <section id="tasks" class="child2">
         <h2>Tasks</h2>
         <ul id="list-container">
-          <!-- <li id="item">
+          <li id="item">
             <span>Task 1</span>
             <button id="delete">X</button>
-          </li> -->
+          </li>
         </ul>
       </section>
 
