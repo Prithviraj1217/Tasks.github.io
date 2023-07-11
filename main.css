@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
+
 
 body {
   font-family: "Poppins", sans-serif;
   background: #fafafa;
+  
 }
 header {
   background-color: #1d3557;
@@ -17,11 +20,13 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  min-width: 200px;
 }
 
 header p {
   font-size: 1.5rem;
   margin-top: 10px;
+  flex-direction: row;
 }
 header a {
   text-decoration: none;
@@ -55,16 +60,17 @@ main {
   flex-direction: column;
 }
 
+
 form {
-  width: 500px;
-  background-color: #fff;
+  width: 100%;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100px;
+
 }
 
 form input {
@@ -74,6 +80,7 @@ form input {
   border-radius: 5px;
   outline: none;
   font-size: 16px;
+  max-width: 60%;
 }
 
 form button {
@@ -93,6 +100,11 @@ form button {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
+  max-width: 75%;
+}
+
+#add-task {
+  justify-content: center;
 }
 
 #list-container {
@@ -135,3 +147,13 @@ form button {
   transform: scale(1.1);
   transition: 0.2s;
 }
+
+.child1 {
+  
+  background-color: rgb(109, 77, 77);
+  min-width: 100px;
+  margin: auto;
+  align-items: center;
+}
+
+
