@@ -149,12 +149,13 @@ form button {
 }
 
 .child1 {
-  margin-top: 10px;
+  
   background-color: white;
   min-width: 100px;
   margin: auto;
   align-items: center;
-  
+  margin-top: 10px;
+  max-width: 75%;
 }
 
 
